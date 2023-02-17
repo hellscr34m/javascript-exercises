@@ -1,4 +1,8 @@
-# Exercise 03 - Reverse a String
+# Issues I ran in
+
+I initially configured my loop's condition as i === 0 which could never be true.
+
+## Exercise 03 - Reverse a String
 
 Pretty simple, write a function called `reverseString` that returns its input, reversed!
 
@@ -8,5 +12,5 @@ reverseString('hello there') // returns 'ereht olleh'
 
 You will notice in this exercise that there are multiple tests, after making the first one pass, enable the others one by one by deleting the `.skip` in front the `test.skip()` function.
 
-## Hints
+### Hints
 Strings in JavaScript cannot be reversed directly so you're going to have to split it into something else first.. do the reversal and then join it back together into a string.
